@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+body{
+    background-color: #0f0f0f;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: .6rem 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: auto;
+    height: 1.35rem;
+}
+
+.lft{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.lft span{
+    color: #ffffff;
+    padding: 0.5rem 0.5rem;    
+
+}
+
+.lft span:hover{
+    border-radius: 100%;
+    padding: 0.5rem 0.5rem;    
+    background-color: #2f3034;
+}
+
+
+.srch-form{
+    width: 35rem;
+    height: 2.5rem;
+    border: 0.063rem solid #2f3034;
+    border-radius: 34rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+    color: #aaaaaa;
+    position: relative;
+}
+
+.srch-form p{
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+
+.srch-icn{
+    background-color: #2f3034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.srch-icn span{
+    background-color: #2f3034
+}
+
+button{
+    float: right;
+    display: flex;
+    align-items: center;
+    background-color: #2f3034;
+    color: #fff;
+    justify-content: center;
+    padding: .6rem 1.1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3rem 3rem 0 ;
+    border: 0;
+}
+
+input:hover{
+    
+}
+
+.cnt{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.not-cnt{
+    position: absolute;
+    background-color: #bb271a;
+    left: 1.25rem;
+    top: .2rem;
+    padding: 0.5rem 0.25rem;    
+    height: 1rem;
+    border: 0.15rem solid #000000;
+    border-radius: 1rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 0.75rem;
+}
+
+
+.mic{
+    border-radius: 6.25rem;
+    padding: 0.5rem 0.5rem;    
+    justify-content: center;
+    display: flex;
+    background-color: #2f3034;
+    cursor: pointer;
+}
+
+
+.mic:hover{
+    border-radius: 100%;
+    background-color: #4e4e53;
+}
+
+
+.rgt{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: .5rem;
+}
+
+.rgt-lft{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.icon{
+    border-radius: 6.25rem;
+    padding: 0.5rem 0.5rem;    
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}   
+
+.icon2{
+    border-radius: 6.25rem;
+    padding: 0.5rem 0.5rem;    
+    position: relative;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    align-items: baseline;
+}   
+
+
+.icon3 img{
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.icon:hover, .icon2:hover{
+    border-radius: 100%;
+    background-color: #2f3034;
+}
+
+.side-nav{
+    height: 25rem;
+    width: 13.75rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.frt{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-bottom: 0.063rem solid #ffffff33;
+    padding: 0 0 0.85rem;
+}
+
+
+.f-st, .s-st{
+    display: flex;
+    color: #aaaaaa;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+    background-color: transparent;
+}
+
+.t-st{
+    display: flex;
+    color: #aaaaaa;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.35rem 0rem 0.35rem 0.75rem;
+    background-color: transparent;
+}
+
+.f-st1{
+    display: flex;
+    color: #aaaaaa;
+    background-color: #ffffff1a;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+}
+
+.f-st:hover, .s-st:hover{
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+}
+
+.t-st:hover {
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    padding: 0.35rem 0rem 0.35rem 0.75rem;
+}
+
+.side-nav p{
+    font-size: 0.875rem;
+}
+
+.side-nav a{
+    text-decoration: none;
+}
+
+.side-nav > svg{
+    width: auto;
+    height: 0.5rem;
+}
+
+.s-st > svg{
+    width: auto;
+    height: 0.5rem;
+}
+
+.srt{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.063rem solid #ffffff33;
+    padding: 0.85rem 0 0.85rem;
+}
+
+.trt{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.063rem solid #ffffff33;
+    padding: 0.85rem 0 0.85rem;
+}
+
+.srt h4{
+    display: flex;
+    color: #aaaaaa;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+    background-color: transparent;
+}
+
+.srt h4:hover{
+    padding: 1rem 1rem;
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+}
+
+.trt h4{
+    display: flex;
+    color: #aaaaaa;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0.75rem;
+    background-color: transparent;
+}
+
+.t-icn img{
+    border-radius: 100%;
+    cursor: pointer;
+    height: 1.5rem;
+}
